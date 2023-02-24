@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.image-responsive {
+    height: 90px;
+    width: 90px;
+    float: left;
+    border-radius: 20px;
+}
+
+
+
+#home {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-decoration: wavy;
+}
+
+#home {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#424242 0%, #000f58 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+    .profile {
+        width: 175px;
+        margin-bottom: 50px;
+        border-radius: 50%;
+        margin-top: 150px;
+    }
+
+    .parallax-inner {
+        display: table-cell;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .menu {
+        list-style: none;
+        position: fixed;
+        top: 10px;
+        right: 30px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    .links {
+        float: left;
+        color: fuchsia;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 9px;
+        padding-bottom: 0px;
+        font-family: fantasy;
+        font-size: 20px;
+    }
+    
+    .links:hover {
+        background-color: aqua;
+    }
+
+#images {
+    width: 600px;
+    height: 500px;
+}
+
+#imag{
+    height: 600px;
+    width: 1000px;
+}
+
+#hom {
+    background-size: cover;
+}
+
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 350px;
+       }
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    line-height: 3;
+    width: 100%;
+    background-color: grey;
+    bottom: 0px;
+    text-align: center;  
+}
